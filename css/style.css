@@ -1,0 +1,92 @@
+/* font */
+
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JSongMyung-Regular-KO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: #FFEEEE;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#quote {
+    font-family: 'KCC-eunyoung';
+    margin-bottom: 30px;
+}
+
+#quote .first {
+    color: #B49C73;
+    font-weight: 300;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+#quote .last {
+    color: gray;
+    font-size: 10px;
+    line-height: 0;
+}
+
+h2 {
+    font-family: 'JSongMyung-Regular-KO';
+    font-size: 65px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-shadow: 4px 2px 4px #EFD9D1;
+}
+
+input {
+    border-radius: 10;
+    border-color: #B49C73;
+    outline-color: #B49C73;
+    color: #D8AC9C;
+    width: calc(70% - 40px);
+}
+
+li {
+    list-style: none;
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    color: #B49C73;
+}
+
+button {
+    margin-right: 20%;
+    float: right;
+    width: calc(4% - 1px);
+    height: calc(3.6% - 1px);
+    text-align: center;
+    background-color: #FFF6EA;
+    border: #5D534A;
+    font-size: 10px;
+    cursor: pointer;
+}
